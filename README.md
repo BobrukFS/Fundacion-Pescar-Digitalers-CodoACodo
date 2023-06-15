@@ -3,5 +3,5 @@ Desafios diarios del curso de desarrollo web dado por Fundacion Pescar y el curs
 
 |  Clase  |Tecnologias|
 |---------|-----------|
-|Clase 1|HTML|
+|Modulo 1|HTML|
 
