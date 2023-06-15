@@ -3,5 +3,5 @@ Desafios diarios y proyectos del curso de desarrollo web dado por Fundacion Pesc
 
 |  Clase  |Tecnologias|
 |---------|-----------|
-| Clase 1 |    HTML   |
+|Clase 1|HTML|
 
