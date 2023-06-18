@@ -3,5 +3,5 @@ Desafios diarios del curso de desarrollo web dado por Fundacion Pescar y el curs
 
 |  Clase  |Tecnologias|
 |---------|-----------|
-|Modulo 1|HTML|
+|<a href="https://bobrukfs.github.io/Fundacion-Pescar-y-Digitalers/Modulo-1/">Modulo 1</a>|HTML|
 
