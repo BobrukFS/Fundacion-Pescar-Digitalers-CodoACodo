@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap");
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+body {
+  background-color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header__h1 {
+  font: 56px "Coiny";
+}
+.header__a {
+  font: 400 32px "Roboto";
+}
+
+.intro__h2 {
+  font-size: 64px;
+}
+.intro__h2 strong {
+  font: 700 117.3px "Coiny";
+}
+.intro__h3 {
+  font: 700 34.6px "Roboto";
+  background-color: #FCEE21;
+}
+.intro__h3--sub {
+  font-size: 26.6px;
+  font-weight: 400;
+}
+.intro__p {
+  font: 400 28px "Roboto";
+}
+.intro__p strong {
+  font-weight: bold;
+}
+.intro__p--sub {
+  font-size: 32px;
+}
+
+.servicios__h2 {
+  font-size: 54.6px;
+}
+.servicios__item {
+  font: 400 24px "Roboto";
+}
+
+/*# sourceMappingURL=style.css.map */
