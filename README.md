@@ -1,5 +1,5 @@
 # Fundacion-Pescar-y-Digitalers
-Desafios diarios del curso de desarrollo web dado por Fundacion Pescar y el curso de desarrollo web front end dado por Digitalers.
+Lista de los desafíos diarios del curso de Desarrollo Web impartido por Fundación Pescar y el curso de Desarrollo Web Front-end impartido por Digitalers:
 
 |  Clase  |Tecnologias usadas| Caracteristicas |
 |---------|-----------|--------------|
