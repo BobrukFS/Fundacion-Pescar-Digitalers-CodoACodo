@@ -12,6 +12,6 @@ Lista de los desafíos diarios del curso de Desarrollo Web impartido por Fundaci
 |  Clase  |Tecnologias usadas| Caracteristicas | Etapa de desarrollo |
 |---------|-----------|--------------|-----------------|
 |<a href="https://bobrukfs.github.io/Fundacion-Pescar-y-Digitalers/Modulo-1/src">Modulo 1</a>|HTML, CSS, SASS| Sitio estatico de turismo en Mendoza. No responsive web | Terminado |
-|<a href="https://bobrukfs.github.io/Fundacion-Pescar-y-Digitalers/Proyecto-integrador/src">Proyecto integrador</a>|HTML, CSS, SASS| Sitio estatico de turismo en Mendoza. No responsive web | En proceso |
+|<a href="https://bobrukfs.github.io/Fundacion-Pescar-y-Digitalers/Proyecto-integrador/src">Proyecto integrador</a>|HTML, CSS, SASS, JS| Proyecto integrador | En proceso |
 
 </div>
