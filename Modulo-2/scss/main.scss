@@ -1,0 +1,340 @@
+@use "_config.scss" as variables;
+@use "_responsive.scss" as *;
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*::after, *::before, * {
+    box-sizing: inherit;
+}
+
+h1, h2 {
+    font-family: map-get(variables.$fuentes , "primaria");
+    margin: 0;
+    font-weight: 700;
+    color: map-get(variables.$colores , "primario" );
+}
+
+h3 {
+    font-family: map-get(variables.$fuentes , "primaria");
+}
+
+p {
+    font-family: map-get(variables.$fuentes , "primaria");
+    margin: 0;
+    font-weight: 400;
+    color: map-get(variables.$colores , "terciario" );
+}
+
+.header{
+    background-color: map-get(variables.$colores , "primario" );
+    padding: 3rem 2rem;
+    border-bottom: 2.5px solid map-get(variables.$colores , "cuaternario" );
+    
+    &__h1 {
+        color: white;
+        font-size: 3rem;
+
+        span {
+            color: map-get(variables.$colores , "secundario" );
+        }
+    }
+
+    @include laptop(){
+        padding: 5rem 4rem;
+
+        &__h1 {
+            font-size: 5rem;
+        }
+    }
+}
+
+main {
+    margin: 5rem 0rem;
+}
+
+.intro {
+    margin: 0rem 4rem 10rem;
+
+    &__h2 {
+        font-size: 2.5rem;
+
+
+        span {
+            color: map-get(variables.$colores , "secundario" );
+        }
+    }
+
+    &__p {
+        font-size: 2rem;
+        margin: 2rem 0rem 2.2rem;
+
+        span {
+            font-weight: bold;
+        }
+        
+    }
+
+    &__img {
+      display: block;  
+      margin: auto;
+      width: 80%;
+      max-width: 35rem;
+}
+
+@include laptop(){
+   display: flex;
+   align-items: center;
+   
+   &__h2 {
+    font-size: 3.5rem;
+   }
+
+   &__p {
+    font-size: 3rem;
+   }
+
+   &__img {
+    max-width: 45rem;
+   }
+}
+
+@include desktop(){
+    margin: 0rem 20rem 10rem;
+}
+
+}
+
+.about {
+   
+    margin-bottom: 10rem;
+
+    &__h2 {
+        font-size: 2.5rem;
+        margin: 0rem 1.5rem;
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        
+    }
+
+    &__p {
+        font-size: 2rem;
+        margin: 2rem 1.5rem;
+    }
+
+    &__btn {
+        display: block;
+        font-size: 2.5rem;
+        padding: 1rem 1rem;
+        background-color: map-get(variables.$colores , "primario" );
+        border-radius: 5rem;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        margin: 4rem auto;
+        width: 50%;
+        max-width: 16rem;
+
+        &:hover, &:focus, &:active {
+            color: map-get(variables.$colores , "secundario" );
+        }
+        
+    }
+
+    @include laptop {
+        &__h2 {
+            font-size: 3.5rem;
+        }
+        
+        &__p {
+            font-size: 3rem;
+        }
+
+        &__btn {
+            font-size: 3rem;
+            max-width: 20rem;
+        }
+    }
+
+    @include desktop(){
+        margin: 0rem 10rem 10rem;
+    }
+}
+
+.coworking {
+    text-align: center;
+    margin-bottom: 10rem;
+
+    &__h3 {
+        font-size: 2.5rem;
+        margin: 0rem 2rem;
+
+        span {
+            color:map-get(variables.$colores , "secundario" )
+        }
+    }
+
+    &__p {
+        font-size: 1.5rem;
+        padding: .5rem 1rem;
+        margin: 2rem 0rem ;
+        color: map-get(variables.$colores , "terciario" );
+
+        strong {
+            text-decoration: underline;
+        }
+
+        &--desc {
+            text-align: start;
+            padding: 2rem 2rem;
+            color: white;
+            background-color: map-get(variables.$colores , "primario" );
+            box-shadow: 0px 0px 10px map-get(variables.$colores , "cuaternario" );
+        }
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__btn {
+        display: block;
+        font-size: 2.5rem;
+        padding: 1rem 1rem;
+        background-color: map-get(variables.$colores , "primario" );
+        border-radius: 5rem;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        margin: 0rem auto;
+        width: 50%;
+        max-width: 16rem;
+        
+        &:hover, &:focus, &:active {
+            color: map-get(variables.$colores , "secundario" );
+        }
+    }
+
+    @include laptop(){
+        &__h3 {
+            font-size: 3rem;
+        }
+
+        div {
+            display: flex;
+        }
+
+        &__p {
+            font-size: 2rem;
+
+            &--desc {
+                text-align: start;
+                padding: 2rem 2rem;
+                color: white;
+                background-color: map-get(variables.$colores , "primario" );
+                box-shadow: 0px 0px 10px map-get(variables.$colores , "cuaternario" );
+                width: 50%;
+            }
+        }
+
+        &__btn {
+            font-size: 3rem;
+            align-self: center;
+            max-width: 20rem;
+        }
+
+        &__img {
+            height: 70rem;
+        }
+    }
+}
+
+.marcas {
+    text-align: center;
+    margin-bottom: 10rem;
+    &__h3 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin: 0rem 1.5rem;
+       color: map-get(variables.$colores , "primario" );
+
+       strong {
+        color: map-get(variables.$colores , "secundario" );
+       }
+    }
+
+    &__div {
+        width: fit-content;
+       margin: auto auto;
+       
+    }
+
+    &__img {
+        display: block;
+        margin: 4rem 0rem;
+      width: 15rem;
+    
+    }
+
+    @include laptop(){
+        &__h3 {
+            font-size: 3rem;
+        }
+
+        &__div {
+            display: flex;
+            margin: 5rem auto;
+       
+        }
+        
+        &__img {
+            margin: 0rem 4rem;
+            width: 10rem;
+            height: 6rem;
+        }
+    }
+
+    @include desktop(){
+
+        &__img {
+            width: 20rem;
+            height: 6rem;
+        }
+    }
+}
+
+.footer {
+    background-color: map-get(variables.$colores , "primario" );
+    padding: 4rem 1rem;
+    text-align: center;
+    border-top: 2px solid map-get(variables.$colores , "cuaternario" );
+
+    &__p {
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    &__icon {
+
+        margin: 1rem .5rem 0rem;
+        color: map-get(variables.$colores , "secundario" );
+        font-size: 2rem;
+
+        &:hover {
+            color: map-get(variables.$colores , "cuaternario" );
+        }
+    }
+
+    @include laptop(){
+        &__p {
+            font-size: 2rem;
+        }
+
+        &__icon {
+            font-size: 2.5rem;
+        }
+    }
+}
