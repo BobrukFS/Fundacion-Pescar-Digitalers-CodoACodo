@@ -1,0 +1,365 @@
+:root {
+--FuenteTitulos : "AplagueFont";
+--primario : #690000;
+--secundario : #2d464d;
+--terciario : #f6c26c;
+--negro : #000000;
+--blanco : #ffffff;
+}
+@font-face {
+    font-family: 'AplagueFont';
+    src: url("TrajanBold/TrajanBold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+ }
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  /*Globales*/
+  body{
+      font-size: 16px;
+      background-color: rgb(243, 247, 250);
+      
+      text-align: center;
+  }
+
+  h1, h2, h3, h4 {
+      font-family: var(--FuenteTitulos);
+      text-transform: uppercase;
+      font-weight: bold;
+  }
+  
+  /* Header */
+
+  header{
+    display: flex;
+    background-image: url(img/header.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover ;
+    padding-bottom: 9vh;
+    justify-content: center;
+    align-items: flex-start;
+    
+  }
+
+  h1{
+text-align: center;
+      margin: 0;
+      font-size: 3vw;
+     
+  }
+
+  h1 span {
+    position: relative;
+    color: var(--primario);
+  }
+
+h1 span::after, h1 span::before{
+    content: "";
+    position: absolute;
+    width: 1.5em;
+    height: 0.08em;
+    background-color: currentColor;
+top: 0.5em;
+
+}
+
+h1 span::before{
+right: 7em;
+      }
+     
+/* Nav */
+
+.navegacion{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(img/nav.jpg);
+    padding: 1rem;
+    border-top: #000000 solid 1px;
+    border-bottom: #000000 solid 1px;
+    background-position: center;
+}
+
+.navegacion__link{
+    
+    color: var(--blanco);
+    font-size: 2.5vh;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navegacion__link:hover{
+    color: var(--negro);
+}
+
+@media (min-width: 468px) {
+    .navegacion__link{
+        font-size: 3vh;
+    }
+    
+}
+@media (min-width: 768px) {
+    .navegacion__link{
+        font-size: 3.7vh;
+    }
+    
+}
+
+/* Main */
+
+.principal{
+    display: block;
+    text-align: center;
+    
+}
+
+.main {
+    margin : 0;
+    background-color: var(--blanco);
+    padding-bottom:2rem ;
+    
+}
+
+.main p{
+   
+    margin:1rem auto;
+    max-width: 40rem;
+
+}
+iframe {
+    max-width: 90%;
+    max-height: 50%;
+}
+.main h2{
+    margin:0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+.principal__reseña{
+    text-transform: lowercase;
+    color: var(--primario);
+    font-size: 3vh;
+    font-family: var(--FuenteTitulos);
+    margin: 1rem auto;
+    font-style: italic;
+}
+
+/*Requisitos */
+
+.requisitos{
+max-width: 90%;
+margin: auto auto;
+color: var(--negro);
+
+}
+
+.requisitos div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+    border: 0.5px var(--negro) solid;
+    background-color: var(--blanco);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='church-on-sunday' fill='%23c4b9b9' fill-opacity='0.4'%3E%3Cpath d='M77.17 0H80v2.83l-.1.1A39.9 39.9 0 0 1 74.64 20a39.9 39.9 0 0 1 5.24 17.06l.11.11v2.89c-.01 6.9-1.8 13.79-5.35 19.94A39.96 39.96 0 0 1 80 79.94V80h-2.83L66.84 69.66a39.83 39.83 0 0 1-24.1 10.25l.09.09h-5.66l.1-.1c-8.7-.58-17.22-4-24.1-10.23L2.82 80H0V79.94c.01-6.9 1.8-13.8 5.35-19.94A39.96 39.96 0 0 1 0 40.06V37.17l.1-.1A39.9 39.9 0 0 1 5.36 20 39.9 39.9 0 0 1 .1 2.94L0 2.83V0h2.83l-.1.1a39.83 39.83 0 0 1 24.1 10.24L37.18 0H40c0 6.92-1.78 13.83-5.35 20A39.96 39.96 0 0 1 40 40c0-6.92 1.78-13.83 5.35-20A39.96 39.96 0 0 1 40 0h2.83l10.33 10.34A39.83 39.83 0 0 1 77.26.09L77.17 0zm.77 77.94c-.3-5.52-1.8-11-4.49-16a40.18 40.18 0 0 1-5.17 6.34l9.66 9.66zm-12.52-9.7l-6.83-6.83-5.46 5.46-1.41 1.41-9.66 9.66c8.4-.45 16.69-3.68 23.36-9.7zm-23.07 6.58l7.99-7.98a40.05 40.05 0 0 1-3.79-4.9 37.88 37.88 0 0 0-4.2 12.88zM47.68 60a37.98 37.98 0 0 0 4.07 5.42L57.17 60l-5.42-5.42A38 38 0 0 0 47.68 60zm2.66-6.84a40.06 40.06 0 0 0-3.79 4.9 37.88 37.88 0 0 1-4.2-12.88l7.99 7.98zm1.38-1.44l1.41 1.41 5.46 5.46 6.83-6.84a37.85 37.85 0 0 0-23.36-9.7l9.66 9.67zM60 60l6.87 6.87A38.1 38.1 0 0 0 72.32 60a38.11 38.11 0 0 0-5.45-6.87L60 60zm-14.65 0a39.9 39.9 0 0 0-5.24 17.06l-.11.11-.1-.1A39.9 39.9 0 0 0 34.64 60a39.9 39.9 0 0 0 5.24-17.06l.11-.11.1.1A39.9 39.9 0 0 0 45.36 60zm9.23-48.25a37.85 37.85 0 0 1 23.36-9.7l-9.66 9.67-1.41 1.41-5.46 5.46-6.83-6.84zm13.67 13.67L62.83 20l5.42-5.42A38 38 0 0 1 72.32 20a37.98 37.98 0 0 1-4.07 5.42zm5.2-3.47a40.05 40.05 0 0 1-3.79 4.89l7.99 7.98c-.61-4.45-2.01-8.82-4.2-12.87zm-6.58 4.92l1.41 1.41 9.66 9.66a37.85 37.85 0 0 1-23.36-9.7l6.83-6.83 5.46 5.46zM53.13 13.13L60 20l-6.87 6.87A38.11 38.11 0 0 1 47.68 20a38.1 38.1 0 0 1 5.45-6.87zm-1.41-1.41l-9.66-9.66c.3 5.52 1.8 11 4.49 16a40.18 40.18 0 0 1 5.17-6.34zm-9.66 26.22c.3-5.52 1.8-11 4.49-16a40.18 40.18 0 0 0 5.17 6.34l-9.66 9.66zm26.22 13.78l9.66-9.66c-.3 5.52-1.8 11-4.49 16a40.18 40.18 0 0 0-5.17-6.34zm8.98-11.81L66.84 50.34a39.83 39.83 0 0 0-24.1-10.25l10.42-10.43a39.83 39.83 0 0 0 24.1 10.25zm-7.6-26.75a40.06 40.06 0 0 1 3.79 4.9 37.88 37.88 0 0 0 4.2-12.88l-7.99 7.98zm-31.72 28.9c-8.4.45-16.69 3.68-23.36 9.7l6.83 6.83 5.46-5.46 1.41-1.41 9.66-9.66zM22.83 60l5.42 5.42c1.54-1.7 2.9-3.52 4.07-5.42a38 38 0 0 0-4.07-5.42L22.83 60zm5.45 8.28l-1.41-1.41-5.46-5.46-6.83 6.84a37.85 37.85 0 0 0 23.36 9.7l-9.66-9.67zm9.37 6.54l-7.99-7.98a40.05 40.05 0 0 0 3.79-4.9 37.88 37.88 0 0 1 4.2 12.88zM20 60l-6.87-6.87A38.11 38.11 0 0 0 7.68 60a38.11 38.11 0 0 0 5.45 6.87L20 60zm17.26-19.9L26.84 29.65a39.83 39.83 0 0 1-24.1 10.25l10.42 10.43a39.83 39.83 0 0 1 24.1-10.25zm-35.2 1.96l9.66 9.66a40.18 40.18 0 0 0-5.17 6.33c-2.7-5-4.2-10.47-4.5-16zm4.49 19.89c-2.7 5-4.2 10.47-4.5 16l9.67-9.67a40.18 40.18 0 0 1-5.17-6.33zm31.1-16.77c-.61 4.45-2.01 8.82-4.2 12.87a40.06 40.06 0 0 0-3.79-4.89l7.99-7.98zm-4.2-23.23c2.7 5 4.2 10.47 4.5 16l-9.67-9.67c1.97-1.97 3.7-4.1 5.17-6.33zm-14.86-.54l6.83 6.84a37.85 37.85 0 0 1-23.36 9.7l9.66-9.67 1.41-1.41 5.46-5.46zm-8.25 5.43l-7.99 7.98c.61-4.45 2.01-8.82 4.2-12.87a40.04 40.04 0 0 0 3.79 4.89zm1.41-1.42A37.99 37.99 0 0 1 7.68 20a38 38 0 0 1 4.07-5.42L17.17 20l-5.42 5.42zm-5.2-7.37a40.04 40.04 0 0 1 3.79-4.89L2.35 5.18c.61 4.45 2.01 8.82 4.2 12.87zm6.58-4.92l-1.41-1.41-9.66-9.66a37.85 37.85 0 0 1 23.36 9.7l-6.83 6.83-5.46-5.46zm13.74 13.74L20 20l6.87-6.87A38.1 38.1 0 0 1 32.32 20a38.1 38.1 0 0 1-5.45 6.87zm6.58-8.82a40.18 40.18 0 0 0-5.17-6.33l9.66-9.66c-.3 5.52-1.8 11-4.49 16z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+}
+
+
+.requisitos__titulo{
+    padding: 1rem;
+    margin: 0;
+    text-decoration: underline;
+    background-image: url(img/nav.jpg);
+    color: var(--blanco);
+    border: 0.5px var(--negro) solid;
+    border-bottom: none;
+
+}
+.requisitos h3{
+text-align: center;
+}
+
+.requisitos ul{
+    margin: 0;
+    padding: 0rem 0.5rem 1rem 1rem;
+    list-style: none;
+    margin-right: 0.5rem;
+    
+}
+
+.requisitos span{
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.requisitos h4{
+    text-align: center;
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .requisitos{
+        text-align: start;
+        grid-column: 2 / 3;
+        margin: 1rem;
+        margin-left: 6rem;
+        
+        max-height: 90%;
+        max-width: 66%;
+    }
+    .principal{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+       gap: 1rem;
+        text-align: center;
+        margin: 1%;
+         
+    }
+
+    .requisitos ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5,1fr);
+        margin: 0;
+        padding: 0rem 0.5rem 1rem 1rem;
+        list-style: none;
+        margin-right: 0.5rem;
+        list-style-position: inside;
+    }
+    .requisitos h4{
+        grid-column: 1/3;
+    }
+    .requisitos li{
+        grid-column: 1/2;
+    }
+    .requisitos p{
+        margin: 0;
+        grid-column: 2/3;
+        text-align: center;
+    }
+    .requisitos div{
+    display: block;
+        max-width: 100%;
+        background-color: var(--blanco);
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='church-on-sunday' fill='%23c4b9b9' fill-opacity='0.4'%3E%3Cpath d='M77.17 0H80v2.83l-.1.1A39.9 39.9 0 0 1 74.64 20a39.9 39.9 0 0 1 5.24 17.06l.11.11v2.89c-.01 6.9-1.8 13.79-5.35 19.94A39.96 39.96 0 0 1 80 79.94V80h-2.83L66.84 69.66a39.83 39.83 0 0 1-24.1 10.25l.09.09h-5.66l.1-.1c-8.7-.58-17.22-4-24.1-10.23L2.82 80H0V79.94c.01-6.9 1.8-13.8 5.35-19.94A39.96 39.96 0 0 1 0 40.06V37.17l.1-.1A39.9 39.9 0 0 1 5.36 20 39.9 39.9 0 0 1 .1 2.94L0 2.83V0h2.83l-.1.1a39.83 39.83 0 0 1 24.1 10.24L37.18 0H40c0 6.92-1.78 13.83-5.35 20A39.96 39.96 0 0 1 40 40c0-6.92 1.78-13.83 5.35-20A39.96 39.96 0 0 1 40 0h2.83l10.33 10.34A39.83 39.83 0 0 1 77.26.09L77.17 0zm.77 77.94c-.3-5.52-1.8-11-4.49-16a40.18 40.18 0 0 1-5.17 6.34l9.66 9.66zm-12.52-9.7l-6.83-6.83-5.46 5.46-1.41 1.41-9.66 9.66c8.4-.45 16.69-3.68 23.36-9.7zm-23.07 6.58l7.99-7.98a40.05 40.05 0 0 1-3.79-4.9 37.88 37.88 0 0 0-4.2 12.88zM47.68 60a37.98 37.98 0 0 0 4.07 5.42L57.17 60l-5.42-5.42A38 38 0 0 0 47.68 60zm2.66-6.84a40.06 40.06 0 0 0-3.79 4.9 37.88 37.88 0 0 1-4.2-12.88l7.99 7.98zm1.38-1.44l1.41 1.41 5.46 5.46 6.83-6.84a37.85 37.85 0 0 0-23.36-9.7l9.66 9.67zM60 60l6.87 6.87A38.1 38.1 0 0 0 72.32 60a38.11 38.11 0 0 0-5.45-6.87L60 60zm-14.65 0a39.9 39.9 0 0 0-5.24 17.06l-.11.11-.1-.1A39.9 39.9 0 0 0 34.64 60a39.9 39.9 0 0 0 5.24-17.06l.11-.11.1.1A39.9 39.9 0 0 0 45.36 60zm9.23-48.25a37.85 37.85 0 0 1 23.36-9.7l-9.66 9.67-1.41 1.41-5.46 5.46-6.83-6.84zm13.67 13.67L62.83 20l5.42-5.42A38 38 0 0 1 72.32 20a37.98 37.98 0 0 1-4.07 5.42zm5.2-3.47a40.05 40.05 0 0 1-3.79 4.89l7.99 7.98c-.61-4.45-2.01-8.82-4.2-12.87zm-6.58 4.92l1.41 1.41 9.66 9.66a37.85 37.85 0 0 1-23.36-9.7l6.83-6.83 5.46 5.46zM53.13 13.13L60 20l-6.87 6.87A38.11 38.11 0 0 1 47.68 20a38.1 38.1 0 0 1 5.45-6.87zm-1.41-1.41l-9.66-9.66c.3 5.52 1.8 11 4.49 16a40.18 40.18 0 0 1 5.17-6.34zm-9.66 26.22c.3-5.52 1.8-11 4.49-16a40.18 40.18 0 0 0 5.17 6.34l-9.66 9.66zm26.22 13.78l9.66-9.66c-.3 5.52-1.8 11-4.49 16a40.18 40.18 0 0 0-5.17-6.34zm8.98-11.81L66.84 50.34a39.83 39.83 0 0 0-24.1-10.25l10.42-10.43a39.83 39.83 0 0 0 24.1 10.25zm-7.6-26.75a40.06 40.06 0 0 1 3.79 4.9 37.88 37.88 0 0 0 4.2-12.88l-7.99 7.98zm-31.72 28.9c-8.4.45-16.69 3.68-23.36 9.7l6.83 6.83 5.46-5.46 1.41-1.41 9.66-9.66zM22.83 60l5.42 5.42c1.54-1.7 2.9-3.52 4.07-5.42a38 38 0 0 0-4.07-5.42L22.83 60zm5.45 8.28l-1.41-1.41-5.46-5.46-6.83 6.84a37.85 37.85 0 0 0 23.36 9.7l-9.66-9.67zm9.37 6.54l-7.99-7.98a40.05 40.05 0 0 0 3.79-4.9 37.88 37.88 0 0 1 4.2 12.88zM20 60l-6.87-6.87A38.11 38.11 0 0 0 7.68 60a38.11 38.11 0 0 0 5.45 6.87L20 60zm17.26-19.9L26.84 29.65a39.83 39.83 0 0 1-24.1 10.25l10.42 10.43a39.83 39.83 0 0 1 24.1-10.25zm-35.2 1.96l9.66 9.66a40.18 40.18 0 0 0-5.17 6.33c-2.7-5-4.2-10.47-4.5-16zm4.49 19.89c-2.7 5-4.2 10.47-4.5 16l9.67-9.67a40.18 40.18 0 0 1-5.17-6.33zm31.1-16.77c-.61 4.45-2.01 8.82-4.2 12.87a40.06 40.06 0 0 0-3.79-4.89l7.99-7.98zm-4.2-23.23c2.7 5 4.2 10.47 4.5 16l-9.67-9.67c1.97-1.97 3.7-4.1 5.17-6.33zm-14.86-.54l6.83 6.84a37.85 37.85 0 0 1-23.36 9.7l9.66-9.67 1.41-1.41 5.46-5.46zm-8.25 5.43l-7.99 7.98c.61-4.45 2.01-8.82 4.2-12.87a40.04 40.04 0 0 0 3.79 4.89zm1.41-1.42A37.99 37.99 0 0 1 7.68 20a38 38 0 0 1 4.07-5.42L17.17 20l-5.42 5.42zm-5.2-7.37a40.04 40.04 0 0 1 3.79-4.89L2.35 5.18c.61 4.45 2.01 8.82 4.2 12.87zm6.58-4.92l-1.41-1.41-9.66-9.66a37.85 37.85 0 0 1 23.36 9.7l-6.83 6.83-5.46-5.46zm13.74 13.74L20 20l6.87-6.87A38.1 38.1 0 0 1 32.32 20a38.1 38.1 0 0 1-5.45 6.87zm6.58-8.82a40.18 40.18 0 0 0-5.17-6.33l9.66-9.66c-.3 5.52-1.8 11-4.49 16z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+
+    .main h2 {
+        font-size: 4rem;
+    }
+    .main p{
+   font-size: 2rem;
+        margin:1rem auto;
+        max-width: 60rem;
+    
+    }
+    iframe {
+        max-width: 90%;
+        max-height: 100%;
+        width: 80rem;
+        height: 60rem;
+        
+    }
+    .requisitos__titulo{
+        background-position: 20cm;
+    }
+}
+
+/* galeria */
+
+.galeria{
+    display: block;
+    margin: 4rem auto 4rem auto;
+    margin-top: 4rem;
+    max-width: 90%;
+    background-color: var(--blanco);
+
+}
+
+.galeria__presentacion{
+    font-size: 3.5rem;
+padding: 2rem;
+color : var(--blanco);
+margin-top : 2rem;
+background-color : rgba(69, 0, 0, 0.9);
+
+
+}
+
+.galeria__presentacion h2, p{
+    margin: 0;
+}
+.galeria__presentacion p{
+
+    font-size: 2rem;
+
+}
+.galeria article{
+    background-color: var(--primario);
+    margin:2rem;
+    padding: 1rem 1rem 0.6rem 1rem;
+    
+}
+
+.imgarticle{
+    max-width: 100%;
+    border: 0.5px black solid;
+}
+
+@media (min-width: 768px) {
+    .galeria{
+        max-width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr 1fr
+    }
+    
+    .galeria__presentacion{
+        max-width: 100%;
+      
+    }
+.galeria__articulo1{
+    -webkit-box-shadow: 0px 3px 12px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 12px -2px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 12px -2px rgba(0,0,0,0.75);
+}
+    .galeria__articulo2{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        -webkit-box-shadow: 0px 3px 12px -2px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 3px 12px -2px rgba(0,0,0,0.75);
+        box-shadow: 0px 3px 12px -2px rgba(0,0,0,0.75);
+    }
+    .galeria__articulo3{
+        grid-column: 2/3;
+        grid-row: 3/4;
+        -webkit-box-shadow: 0px 3px 12px -2px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 3px 12px -2px rgba(0,0,0,0.75);
+        box-shadow: 0px 3px 12px -2px rgba(0,0,0,0.75);
+    }
+  
+}
+
+/* footer */
+
+.footer{
+    padding: 8rem;
+    background-position: center;
+    background-color:#000000;
+    color: var(--blanco);
+    background-image: url(https://pngimg.com/uploads/raven/raven_PNG86.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logopng{
+    width: 300px;
+
+}
+
