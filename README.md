@@ -1,10 +1,7 @@
 # <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45" style="display: inline-block; vertical-align: middle;"/> Fundacion-Pescar-y-Digitalers
-Lista de los desafíos diarios del curso de Desarrollo Web impartido por Fundación Pescar y el curso de Desarrollo Web Front-end impartido por Digitalers mediante EducacionIT:
+Lista de los desafíos diarios del curso de Desarrollo Web Full Stack impartido por Fundación Pescar y el curso de Desarrollo Web Front-end impartido por Telecom mediante EducacionIT:
 
-<div align="center">
-  <img src="https://1000marcas.net/wp-content/uploads/2019/11/Logo-Santander-.png" width="200px">
- <img src="https://forodelsectorsocial.org.ar/wp/wp-content/uploads/2020/08/Logo-Pescar-completo.png" width="200px">
-</div>
+
 
 <div align="center">
 
