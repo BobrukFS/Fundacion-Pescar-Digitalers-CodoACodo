@@ -1,0 +1,223 @@
+:root {
+    --primario: #FCB73f;
+    --secundario: #c82e2e;
+    --terciario: #414042;
+    --familia: "Roboto", sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+}
+
+header {
+    background-color: #f1f1f3;
+
+}
+
+header p {
+
+    margin: 0;
+}
+
+/*Header Styles */
+
+/*HeaderTop*/
+
+.HeaderTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem;
+
+
+
+}
+
+.HeaderTop p {
+    margin: 0rem 1rem;
+    color: #414042;
+    font-weight: 700;
+    
+}
+
+.HeaderTop__Tel {
+    display: flex;
+    align-items: center;
+   
+}
+
+.HeaderTop__Tel p:nth-child(3) {
+    padding-left: 0.5rem;
+    border-left: 1px solid black;
+    margin-left: 0rem;
+}
+
+.HeaderTop__Tel p:nth-child(2) {
+    margin-right: .5rem;
+}
+
+.iconos {
+    margin-left: 1.5rem;
+    font-size: 2.3rem;
+}
+
+/**HeaderMiddle*/
+
+.HeaderMiddle {
+    background-color: var(--primario);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+
+
+.logo {
+    width: 20rem;
+    padding: 1rem;
+    margin-left: 7rem;
+}
+
+.Search {
+    display: flex;
+}
+
+.iconosmiddle {
+  font-size: 3rem;
+   
+}
+.iconosmiddle__search{
+text-align: center;
+    border: 1px solid #efefef;
+    border-left: none;
+    width: 6.2rem;
+    background-color: #efefef;
+    height: 4rem;
+  padding-top: 0.7rem;
+  font-size: 2rem;
+  height: 4rem;
+}
+
+
+input {
+    width: 50rem;
+    height: 4rem;
+    border: 1px solid #e6e4e4;
+    padding: 1rem;
+    
+}
+
+input:focus{
+outline: 0;
+border: 1px solid #000000;
+}
+
+.usuario{
+    display: flex;
+    text-align: center;
+    margin-left: 3rem;
+    width: 35rem;
+    justify-content: start;
+    gap: 8rem;
+    color: #414042;
+    font-weight: 700;
+   
+}
+/*Header bottom*/
+.HeaderBottom{
+    display: flex;
+    justify-content: center;
+    border: 1px #d2d6dE solid;
+    padding: 0rem;
+    box-shadow: 0 5px 20px rgba(00,00,00,0.4);
+    
+}
+.HeaderBottom__iconos{
+    border:1;
+    font-size: 3.5rem;
+    border: 1px #d2d6dE solid;
+    width: 21rem;
+    height: 6rem;
+   
+    border-bottom: none;
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderBottom__iconos--Agendas{
+    color: #00aaa0;
+
+}
+
+.HeaderBottom__iconos--Artistica{
+    color:#ef8bba;
+}
+.HeaderBottom__iconos--Comercial{
+    color: #f15a26;
+}
+.HeaderBottom__iconos--Escolar{
+color:#873f91;
+}
+.HeaderBottom__iconos--Regaleria{
+color:#00a321;
+}
+
+.HeaderBottom__iconos--Tecnologia{
+color: #c82e2e;
+}
+
+.HeaderBottom__iconos p {
+    font-size: 2.4rem;
+    margin-left: 0.7rem;
+    color: var(--terciario);
+    font-weight: 700;
+}
+/* presentacion */
+
+.presentacion{
+    margin: auto 1rem;
+position:relative;
+z-index:-1;
+}
+.presentacion img{
+    max-width: 100%;
+}
+.deslizar{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    color: #d2d6dE;
+    margin: 0;
+}
+
+.deslizar li{
+list-style-type: none;
+}
+.deslizar button{
+border-radius: 50%;
+width: 8px;
+height: 8px;
+padding: 0;
+background-color:#d2d6dE;
+border: 1px #d2d6dE solid;
+}
+
+.deslizar button:active{
+    width: 12px;
+    height: 12px;
+    background-color: rgb(177, 30, 86);
+}

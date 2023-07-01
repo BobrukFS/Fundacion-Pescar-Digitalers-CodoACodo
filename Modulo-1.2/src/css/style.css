@@ -8,7 +8,7 @@
 }
 @font-face {
     font-family: 'AplagueFont';
-    src: url("TrajanBold/TrajanBold.ttf") format("truetype");
+    src: url("../assets/fonts/TrajanBold/TrajanBold.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
  }
@@ -37,7 +37,7 @@ html {
 
   header{
     display: flex;
-    background-image: url(img/header.png);
+    background-image: url(../assets/img/header.png);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover ;
@@ -78,7 +78,7 @@ right: 7em;
 .navegacion{
     display: flex;
     justify-content: space-evenly;
-    background-image: url(img/nav.jpg);
+    background-image: url(../assets/img/nav.jpg);
     padding: 1rem;
     border-top: #000000 solid 1px;
     border-bottom: #000000 solid 1px;
@@ -175,7 +175,7 @@ color: var(--negro);
     padding: 1rem;
     margin: 0;
     text-decoration: underline;
-    background-image: url(img/nav.jpg);
+    background-image: url(../assets/img/nav.jpg);
     color: var(--blanco);
     border: 0.5px var(--negro) solid;
     border-bottom: none;
