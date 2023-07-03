@@ -17,8 +17,8 @@ Lista de desafíos diarios que hago a la par de los cursos de Desarrollo Web Ful
 |---------|-----------|--------------|-----------------|
 |<a href="https://bobrukfs.github.io/Fundacion-Pescar-y-Digitalers/Modulo-1/src">Modulo 1</a>|HTML, CSS, SASS| Sitio estatico simple de turismo en Mendoza. No responsive web | Terminado |
 |<a href="https://bobrukfs.github.io/Fundacion-Pescar-y-Digitalers/Modulo-1.1/src">Modulo 1.1</a>|HTML, CSS, Bootstrap| Sitio estatico simple de una veterinaria. No responsive web | Terminado |
-|<a href="https://bobrukfs.github.io/Fundacion-Pescar-y-Digitalers/Modulo-1.2/src">Modulo 1.2</a>|HTML, CSS| Sitio estatico simple de A Plague Tale. Responsive web | Terminado |
-|<a href="https://bobrukfs.github.io/Fundacion-Pescar-y-Digitalers/Modulo-2/src">Modulo 2</a>|HTML, CSS, SASS| Sitio estatico simple. Responsive web | Terminado |
+|<a href="https://bobrukfs.github.io/Fundacion-Pescar-y-Digitalers/Modulo-1.2/src">Modulo 1.2</a>|HTML, CSS| Sitio estatico simple de A Plague Tale. Diseño adaptativo | Terminado |
+|<a href="https://bobrukfs.github.io/Fundacion-Pescar-y-Digitalers/Modulo-2/src">Modulo 2</a>|HTML, CSS, SASS| Sitio estatico simple. Diseño adaptativo | Terminado |
 |<a href="https://bobrukfs.github.io/Fundacion-Pescar-y-Digitalers/Modulo-2.1/src">Modulo 2.1</a>|HTML, CSS, SASS, Bootstrap| Sitio dinamico de una libreria. Responsive web | En proceso |
 |<a href="">Proyecto integrador</a>|HTML, CSS, SASS, JS| Proyecto integrador | En proceso |
 
