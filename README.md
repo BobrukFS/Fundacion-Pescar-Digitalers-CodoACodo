@@ -1,4 +1,4 @@
-# <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45" style="display: inline-block; vertical-align: middle;"/> Fundacion-Pescar-y-Digitalers
+# <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45" style="display: inline-block; vertical-align: middle;"/> Fundacion Pescar, Digitalers y Codo a Codo
 Lista de desafíos diarios que hago a la par de los cursos de Desarrollo Web Full Stack impartido por Fundación Pescar, el curso de Desarrollo Web Front-end impartido por Telecom mediante EducacionIT y el curso de Desarrollo Full-Stack Java de Codo a Codo.
 
 
