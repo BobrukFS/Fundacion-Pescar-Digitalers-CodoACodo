@@ -15,12 +15,12 @@ Lista de desafíos diarios que hago a la par de los cursos de Desarrollo Web Ful
   
 |  Clase  |Tecnologias usadas| Caracteristicas | Etapa de desarrollo |
 |---------|-----------|--------------|-----------------|
-|<a href="https://github.com/BobrukFS/Fundacion-Pescar-Digitalers-CodoACodo/Modulo-1/src">Modulo 1</a>|HTML, CSS, SASS| Sitio estatico simple de turismo en Mendoza. No responsive web | Terminado |
-|<a href="https://github.com/BobrukFS/Fundacion-Pescar-Digitalers-CodoACodo/Modulo-1.1/src">Modulo 1.1</a>|HTML, CSS, Bootstrap| Sitio estatico simple de una veterinaria. No responsive web | Terminado |
-|<a href="https://github.com/BobrukFS/Fundacion-Pescar-Digitalers-CodoACodo/Modulo-1.2/src">Modulo 1.2</a>|HTML, CSS| Sitio estatico simple de A Plague Tale. Responsive web | Terminado |
-|<a href="https://github.com/BobrukFS/Fundacion-Pescar-Digitalers-CodoACodo/Modulo-2/src">Modulo 2</a>|HTML, CSS, SASS| Sitio estatico simple. Responsive web | Terminado |
-|<a href="https://github.com/BobrukFS/Fundacion-Pescar-Digitalers-CodoACodo/Modulo-2.1/src">Modulo 2.1</a>|HTML, CSS, SASS, Bootstrap| Sitio dinamico de una libreria. Responsive web | En proceso |
-|<a href="https://github.com/BobrukFS/Fundacion-Pescar-Digitalers-CodoACodo/Proyecto-Integrador-1/src">Proyecto integrador 1 CAC</a>|HTML, CSS, SASS, JS| Proyecto integrador | En proceso |
+|<a href="https://bobrukfs.github.io/Fundacion-Pescar-Digitalers-CodoACodo/Modulo-1/src/">Modulo 1</a>|HTML, CSS, SASS| Sitio estatico simple de turismo en Mendoza. No responsive web | Terminado |
+|<a href="https://bobrukfs.github.io/Fundacion-Pescar-Digitalers-CodoACodo/Modulo-1.1/src/">Modulo 1.1</a>|HTML, CSS, Bootstrap| Sitio estatico simple de una veterinaria. No responsive web | Terminado |
+|<a href="https://bobrukfs.github.io/Fundacion-Pescar-Digitalers-CodoACodo/Modulo-1.2/src/">Modulo 1.2</a>|HTML, CSS| Sitio estatico simple de A Plague Tale. Responsive web | Terminado |
+|<a href="https://bobrukfs.github.io/Fundacion-Pescar-Digitalers-CodoACodo/Modulo-2/src/">Modulo 2</a>|HTML, CSS, SASS| Sitio estatico simple. Responsive web | Terminado |
+|<a href="https://bobrukfs.github.io/Fundacion-Pescar-Digitalers-CodoACodo/Modulo-2.1/src/">Modulo 2.1</a>|HTML, CSS, SASS, Bootstrap| Sitio dinamico de una libreria. Responsive web | En proceso |
+|<a href="https://bobrukfs.github.io/Fundacion-Pescar-Digitalers-CodoACodo/Proyecto-Integrador-1/src/">Proyecto integrador 1 CAC</a>|HTML, CSS, SASS, JS| Proyecto integrador | Terminado |
 |<a href="https://github.com/BobrukFS/Proyecto-Integrador-Digitalers">Proyecto integrador Digitalers</a>|HTML, CSS, SASS, JS| Proyecto integrador | En proceso |
 
 
