@@ -1,0 +1,131 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+h1, h2, h3, p{
+    width: fit-content;
+}
+
+.p-intro{
+    max-width: 50rem;
+}
+
+.logo{
+    width: 10rem;
+}
+
+.carousel-fondo{
+    background-color: rgba(0, 0, 0, 0.568);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.intro{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.intro__info{
+    top: 0;
+    z-index: 2;
+    height: 100%;
+}
+
+.img{
+    min-width: 100vw;
+    height: 100vw;
+    z-index: -2;
+    max-height: 480px;
+
+
+}
+
+@media (min-width: 768px) { 
+    .img{
+        max-height: 600px;
+    }
+}
+
+
+.bg-secondary2{
+    background-color: rgb(48, 48, 48);
+}
+
+
+.card{
+    max-width: 30rem;
+   
+}
+
+.contacto__title{
+    max-width: 20rem;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.underline-none{
+    text-decoration: none;
+}
+
+.bg-custom{
+    background-color: rgb(2, 52, 61);
+}
+
+.footer__enlace{
+    max-width: 8rem;
+}
+
+.formulario{
+    max-width: 60rem;
+}
+
+.textarea{
+    height: 10rem;
+}
+
+input, select{
+    border: 1px rgb(173, 173, 173) solid;
+    border-radius: .4rem;
+    padding: 1rem 1rem;
+}
+
+.monto{
+    background-color: rgba(63, 175, 209, 0.432);
+    border: 1px solid rgb(111, 199, 226) ;
+    padding: 1rem 1rem;
+    border-radius: .4rem;
+    color: rgba(6, 20, 24, 0.658);
+}
+
+.formulario-ticket{
+    max-width: 80rem;
+}
+
+main{
+    min-height: calc(100vh - 68px);
+}
+
+.ticket-resumen{
+    min-height: 35rem;
+    min-width: 30rem;
+    background-color: rgba(228, 255, 255, 0.473);
+    border: 1px solid rgb(150, 189, 202) ;
+    color: rgba(6, 20, 24, 0.658);
+}

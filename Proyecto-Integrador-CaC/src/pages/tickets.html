@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="px-2 px-lg-5 bg-secondary2">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid d-flex justify-content-between">
+                <div class="d-flex align-items-center">
+                    <img class="logo" src="../../assets/codoacodo.png" alt="logo">
+                    <a class="navbar-brand fs-2 text-white fw-bold" href="../index.html">Codo a Codo</a>
+                </div>
+
+                <button class="navbar-toggler bg-white rounded-circle p-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav d-flex flex-column flex-lg-row">
+
+
+                        <a class="nav-link fs-4 text-white" href="#">La conferencia</a>
+                        <a class="nav-link fs-4 text-white" href="#">Los oradores</a>
+                        <a class="nav-link fs-4 text-white">El lugar y la fecha</a>
+                        <a class="nav-link fs-4 text-white">Conviertete en orador</a>
+                        <a href="./pages/tickets.html" class="nav-link fs-4 text-success fw-bold">Comprar tickets</a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="ticket container-fluid d-flex flex-column align-items-center px-5 my-5 justify-content-center">
+        <div class="d-flex flex-column align-items-center gap-2 my-4 flex-md-row">
+            <div class="d-flex flex-column align-items-center border-primary border border-2  text-center p-3  rounded-3 ">
+                <p class="fs-3 fw-bold">Estudiante</p>
+                <p class="fs-4">Tienen un descuento</p>
+                <p class="fs-3 fw-bold">80%</p>
+                <p class="fs-5">* presentar documentacion</p>
+            </div>
+
+            <div class="d-flex flex-column align-items-center border border-success p-3 border-2 rounded-1">
+                <p class="fs-3 fw-bold">Trainee</p>
+                <p class="fs-4">Tienen un descuento</p>
+                <p class="fs-3 fw-bold">50%</p>
+                <p class="fs-5">* presentar documentacion</p>
+            </div>
+
+            <div class=" d-flex flex-column align-items-center border border-warning p-3 border-2 rounded-1">
+                <p class="fs-3 fw-bold">Junior</p>
+                <p class="fs-4">Tienen un descuento</p>
+                <p class="fs-3 fw-bold">15%</p>
+                <p class="fs-5">* presentar documentacion</p>
+            </div>
+        </div>
+
+
+        <h1 class="fs-3 fw-light">VENTA</h1>
+        <p class="fs-1 fw-bold">VALOR DE TICKET $200</p>
+        <form class="d-flex fle flex-wrap justify-content-center gap-4 formulario-ticket">
+            <div class="w-100 d-flex justify-content-between gap-3">
+                <input class="w-100 nombre fs-4" type="text" placeholder="Nombre" name="nombre" required>
+                <input class="w-100 apellido fs-4" type="text" placeholder="Apellido" name="apellido" required>
+            </div>
+            <input class="w-100 correo fs-4" type="email" placeholder="Correo" name="correo" required>
+            <div class="w-100 d-flex gap-3">
+                <div class="d-flex flex-column w-50 gap-3">
+                    <label class="fs-3 " for="cantidad" >Cantidad</label>
+                    <input class="fs-4 cantidad" type="number" id="cantidad" name="cantidad" value="1" placeholder="cantidad">
+                </div>
+                <div class="d-flex flex-column w-50 gap-3">
+                    <label class="fs-3" for="categoria">Categoria</label>
+                    <select class="fs-4 select" name="categoria" id="categoria">
+                        <option value="estudiante">Estudiante</option>
+                        <option value="trainee">Trainee</option>
+                        <option value="junior">Junior</option>
+                    </select>
+
+                </div>
+            </div>
+
+
+            <p class="w-100 fw-bold fs-4 monto">Total a Pagar: <span class="monto__total"></span></p>
+            <div class="w-100 d-flex gap-3">
+                <button type="reset" class="w-50 text-white border-0 bg-success p-4 fs-3 rounded-3 borrar">Borrar</button>
+                <button class="w-50 text-white border-0 bg-success p-4 fs-3 rounded-3 resumen">Resumen</button>
+            </div>
+           
+        </form>
+    </main>
+    <footer class="bg-custom d-flex justify-content-center px-5 py-4 align-items-center">
+        <nav class="d-flex w-100 gap-5 justify-content-around px-5 align-items-center flex-wrap">
+            <a href="#" class="footer__enlace text-white fs-4 underline-none">Preguntas frecuentes</a>
+            <a href="#" class="footer__enlace text-white fs-4 underline-none">Contactanos</a>
+            <a href="#" class="footer__enlace text-white fs-4 underline-none">Preguntas</a>
+            <a href="#" class="footer__enlace text-white fs-4 underline-none">Conferencias</a>
+            <a href="#" class="footer__enlace text-white fs-4 underline-none">Terminos y condiciones</a>
+            <a href="#" class="footer__enlace text-white fs-4 underline-none">Privacidad</a>
+            <a href="#" class="footer__enlace text-white fs-4 underline-none">Estudiantes</a>
+        </nav>
+
+    </footer>
+    <script src="../main.js"></script>
+</body>
+
+</html>
