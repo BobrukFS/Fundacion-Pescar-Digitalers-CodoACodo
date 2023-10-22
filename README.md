@@ -21,7 +21,7 @@ Lista de desafíos diarios que hago a la par de los cursos de Desarrollo Web Ful
 |<a href="https://bobrukfs.github.io/Fundacion-Pescar-Digitalers-CodoACodo/Modulo-2/src/">Modulo 2</a>|HTML, CSS, SASS| Sitio estatico simple. Responsive web | Terminado |
 |<a href="https://bobrukfs.github.io/Fundacion-Pescar-Digitalers-CodoACodo/Modulo-2.1/src/">Modulo 2.1</a>|HTML, CSS, SASS, Bootstrap| Sitio dinamico de una libreria. Responsive web | En proceso |
 |<a href="https://bobrukfs.github.io/Fundacion-Pescar-Digitalers-CodoACodo/Proyecto-Integrador-CaC/src/">Proyecto integrador CAC</a>|HTML, CSS, SASS, JS| Proyecto integrador | Terminado |
-|<a href="https://bobrukfs.github.io/Fundacion-Pescar-Digitalers-CodoACodo/Proyecto-Integrador-Digitalers">Proyecto integrador Digitalers</a>|HTML, CSS, SASS, JS| Proyecto integrador | En proceso |
+|<a href="https://github.com/BobrukFS/Proyecto-Integrador-Digitalers">Proyecto integrador Digitalers</a>|HTML, CSS, SASS, JS| Proyecto integrador | En proceso |
 
 
 
